@@ -20,7 +20,7 @@
   background: rgb(2,0,36, 0.3);
   gap: 20px;
   height: 250px;
-  padding: 0 20px 30px 20px;
+  padding: 20px 20px 30px 20px;
   border-radius: 10px;
 }
 
@@ -60,4 +60,20 @@
   background: #1a6afb;
   color: #fff;
   cursor: pointer;
+}
+
+.main-container p {
+  font-family: 'Lato';
+  color: #fff;
+}
+
+.main-container a {
+  text-decoration: none;
+  color: #b0bfdf;
+  font-weight: bold;
+}
+
+.main-container a:hover {
+  color: #4f81ee;
+  transition: 200ms;
 }
